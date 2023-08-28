@@ -1,0 +1,387 @@
+{
+  "id": "image_gallery",
+  "type": "SharedSlice",
+  "name": "ImageGallery",
+  "description": "ImageGallery",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageGallery",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": null,
+              "height": null
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "imageText": {
+          "config": {
+            "label": "Image Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "allowTargetBlank": true,
+            "placeholder": "",
+            "label": "Link"
+          }
+        },
+        "linkLabel": {
+          "config": {
+            "label": "Link Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "scrollSpeed": {
+          "config": {
+            "label": "Scroll Speed",
+            "placeholder": ""
+          },
+          "type": "Number"
+        }
+      }
+    },
+    {
+      "id": "justImages",
+      "name": "Just Images",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageGallery",
+      "primary": {
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": null,
+              "height": null
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "allowTargetBlank": true,
+            "placeholder": "",
+            "label": "Link"
+          }
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "scrollSpeed": {
+          "config": {
+            "label": "Scroll Speed",
+            "placeholder": ""
+          },
+          "type": "Number"
+        }
+      }
+    },
+    {
+      "id": "withMainImage",
+      "name": "With Main Image",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageGallery",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "imageDescription": {
+          "config": {
+            "label": "Image Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "imageClass": {
+          "config": {
+            "label": "Image Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": null,
+              "height": null
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "imageText": {
+          "config": {
+            "label": "Image Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "allowTargetBlank": true,
+            "placeholder": "",
+            "label": "Link"
+          }
+        },
+        "linkLabel": {
+          "config": {
+            "label": "Link Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "scrollSpeed": {
+          "config": {
+            "label": "Scroll Speed",
+            "placeholder": ""
+          },
+          "type": "Number"
+        }
+      }
+    },
+    {
+      "id": "withMainVideo",
+      "name": "With Main Video",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageGallery",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2,heading3,heading4"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "imageDescription": {
+          "config": {
+            "label": "Image Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "imageClass": {
+          "config": {
+            "label": "Image Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "videoMP4": {
+          "config": {
+            "label": "videoMP4",
+            "placeholder": "",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "videoWEBM": {
+          "config": {
+            "label": "videoWEBM",
+            "placeholder": "",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "footer": {
+          "config": {
+            "label": "Footer",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": null,
+              "height": null
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "imageText": {
+          "config": {
+            "label": "Image Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "allowTargetBlank": true,
+            "placeholder": "",
+            "label": "Link"
+          }
+        },
+        "linkLabel": {
+          "config": {
+            "label": "Link Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "scrollSpeed": {
+          "config": {
+            "label": "Scroll Speed",
+            "placeholder": ""
+          },
+          "type": "Number"
+        }
+      }
+    }
+  ]
+}

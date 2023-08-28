@@ -1,0 +1,34 @@
+{
+  "id": "instagram",
+  "type": "SharedSlice",
+  "name": "Instagram",
+  "description": "Instagram",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Instagram",
+      "primary": {
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "paragraph,hyperlink,strong,em"
+          }
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

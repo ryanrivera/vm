@@ -1,0 +1,114 @@
+{
+  "id": "map",
+  "type": "SharedSlice",
+  "name": "Map",
+  "description": "Map",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Map",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "address": {
+          "config": {
+            "label": "Address",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "coordinates": {
+          "config": {
+            "label": "Coordinates"
+          },
+          "type": "GeoPoint"
+        },
+        "storeHours": {
+          "config": {
+            "label": "Store Hours",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "relationship": {
+          "config": {
+            "label": "Relationship",
+            "customtypes": [],
+            "select": "document"
+          },
+          "type": "Link"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "videoMP4": {
+          "config": {
+            "label": "Video MP4",
+            "placeholder": "",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "videoWEBM": {
+          "config": {
+            "label": "Video WEBM",
+            "placeholder": "",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "videoThumbnail": {
+          "config": {
+            "label": "Video Thumbnail",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "mapImage": {
+          "config": {
+            "label": "Map Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "mapEmbedCode": {
+          "config": {
+            "label": "Map Embed Code",
+            "placeholder": ""
+          },
+          "type": "Embed"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

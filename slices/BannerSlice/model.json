@@ -1,0 +1,78 @@
+{
+  "id": "banner_slice",
+  "type": "SharedSlice",
+  "name": "BannerSlice",
+  "description": "BannerSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "BannerSlice",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "multi": "heading1,heading2,heading3,strong,em"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,strong,em,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "parallaxDirection": {
+          "config": {
+            "label": "Parallax Direction",
+            "placeholder": "",
+            "options": [
+              "X",
+              "Y"
+            ],
+            "default_value": "X"
+          },
+          "type": "Select"
+        },
+        "parallaxOffset": {
+          "config": {
+            "label": "Parallax Offset",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
+        "background": {
+          "config": {
+            "label": "Background",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

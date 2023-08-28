@@ -1,0 +1,43 @@
+{
+  "id": "hero_tertiary",
+  "type": "SharedSlice",
+  "name": "HeroTertiary",
+  "description": "HeroTertiary",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroTertiary",
+      "primary": {
+        "subTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Sub Title",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "heading4,strong,em"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1,strong,em"
+          }
+        },
+        "className": {
+          "config": {
+            "label": "Class Name",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

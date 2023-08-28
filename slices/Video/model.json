@@ -1,0 +1,76 @@
+{
+  "id": "video",
+  "type": "SharedSlice",
+  "name": "Video",
+  "description": "Video",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Video",
+      "primary": {
+        "videoMP4": {
+          "config": {
+            "label": "Video MP4",
+            "placeholder": "",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "videoWEBM": {
+          "config": {
+            "label": "Video WEBM",
+            "placeholder": "",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "videoThumbnail": {
+          "config": {
+            "label": "Video Thumbnail",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "controls": {
+          "config": {
+            "label": "Controls",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "autoPlay": {
+          "config": {
+            "label": "Auto Play",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "muted": {
+          "config": {
+            "label": "Muted",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

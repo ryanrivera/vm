@@ -1,0 +1,90 @@
+{
+  "id": "notification",
+  "label": "Notification",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "text": {
+        "config": {
+          "label": "Text",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "textMobile": {
+        "config": {
+          "label": "Text Mobile",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "icon": {
+        "config": {
+          "label": "Icon",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        },
+        "type": "StructuredText"
+      },
+      "image": {
+        "config": {
+          "label": "Image",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "content": {
+        "config": {
+          "label": "Content",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        },
+        "type": "StructuredText"
+      },
+      "background": {
+        "config": {
+          "label": "Background",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "class": {
+        "config": {
+          "label": "Class",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "featured_image": {
+              "type": "SharedSlice"
+            },
+            "text_slice": {
+              "type": "SharedSlice"
+            },
+            "video": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

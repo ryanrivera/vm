@@ -1,0 +1,119 @@
+{
+  "id": "locations",
+  "type": "SharedSlice",
+  "name": "Locations",
+  "description": "Locations",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Locations",
+      "primary": {
+        "mapImage": {
+          "config": {
+            "label": "Map Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "class": {
+          "config": {
+            "label": "Class",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2,heading3,heading4,heading5,heading6"
+          },
+          "type": "StructuredText"
+        },
+        "address": {
+          "config": {
+            "label": "Address",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "xPos": {
+          "config": {
+            "label": "X Position",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "yPos": {
+          "config": {
+            "label": "Y Position",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "hub": {
+          "config": {
+            "label": "Hub",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "satellite": {
+          "config": {
+            "label": "Satellite",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "lsd": {
+          "config": {
+            "label": "LSD",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        },
+        "comingSoon": {
+          "config": {
+            "label": "Coming Soon",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      }
+    }
+  ]
+}
